@@ -169,4 +169,19 @@
     font-family: "Questrial", sans-serif;
     font-size: 1em;
   }
+
+  #retornar i:hover{
+    transform: scale(1.05);
+    transition: box-shadow 1.2s ease;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.396);
+    color: #bebebe;
+  }
+  
+  #retornar a:visited{
+    color: #ffffff;
+  }
+
+  #retornar a:link{
+    color: #ffffff;
+  }
   
