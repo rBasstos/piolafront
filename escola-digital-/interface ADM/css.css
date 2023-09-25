@@ -40,22 +40,23 @@
   
   .Piola {
     font-size: xx-large;
-    color: white;
+    color: #021b30;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    background-color:#4B5842;
+    background-color:#D9D9D9;
     font-family: "Questrial", sans-serif;
     margin-left: 0x;
-    margin-right: 400px;
+    margin-right: 405px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px; 
     width: 40%;
     border-radius: 15px;
+    margin-top: 10px;
   }
   
   .Piola p {
@@ -143,16 +144,10 @@ margin-top:50px;
   }
 
   .out{
-      background-color: #021b30;
-      color:white;
+      background-color: white;
+      color:#021b30;
       margin-top: 120px; 
      }
   .out:hover {
       transform: scale(1.1);
-  }
-
-  .ajuda {
-    color: white;
-    font-family: 'Lexend Exa', sans-serif;
-    font-size: x-large;
   }
