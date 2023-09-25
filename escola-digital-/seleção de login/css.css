@@ -1,116 +1,111 @@
 section.logins{
-    padding: 40px 4%;
-    display: flex;
-    justify-content: center;
+  padding: 40px 4%;
+  display: flex;
+  justify-content: center;
 }
 
+.titulo{
+  margin-top: 5px;
+}
 h4.titulo{
-    color: black;
-    text-align: center;
-    font-size: xx-large;
-    font-family: 'Questrial', sans-serif;
+  color: black;
+  text-align: center;
+  font-size: xx-large;
+  font-family: 'Questrial', sans-serif;
 }
 
 h4.titulo span{
-    color: #4B5842;
+  color: #111B4D;
 }
 
 .logins .flex {
-    display: flex;
-    justify-content: space-between; /* Distribuir os elementos uniformemente */
+  display: flex;
+  justify-content: space-between; /* Distribuir os elementos uniformemente */
 }
 
 .logins .logins-box {
-    flex: 1; /* Distribuir espaço igualmente entre os elementos */
-    border: 2px solid #ccccccaa; /* Adicione uma borda para melhor visualização */
-    padding: 20px;
-    text-align: center;
-    margin-left: 30px;
-    margin-top:90px;
-    border-radius: 15px;
-    transition: 1.5s;
- }
+  flex: 1; /* Distribuir espaço igualmente entre os elementos */
+  border: 2px solid #ccccccaa; /* Adicione uma borda para melhor visualização */
+  padding: 20px;
+  text-align: center;
+  margin-left: 30px;
+  margin-top:90px;
+  border-radius: 15px;
+  transition: 1.5s;
+}
 
- .logins .logins-box i {
-    font-size: 20px;
- }
+.logins .logins-box i {
+  font-size: 20px;
+}
 
- .logins .logins-box h3{
+.logins .logins-box h3{
 font-size: x-large;
 font-family: 'Lexend Deca', sans-serif;
- }
+}
 
- .logins .logins-box:hover{
-    transform: scale(1.08);
- box-shadow: 0 0 20px rgba(255, 255, 255, 0.336);
- }
+.logins .logins-box:hover{
+  transform: scale(1.08);
+box-shadow: 0 0 20px rgba(255, 255, 255, 0.336);
+}
 
- .logins-box a {
-    text-decoration: none;
-    color: #021b30;
- }
+.logins-box a {
+  text-decoration: none;
+  color: #021b30;
+}
 
- .logins-box p {
-    font-family: 'Questrial', sans-serif;
- }
+.logins-box p {
+  font-family: 'Questrial', sans-serif;
+}
 
- .site-header {
-    position: absolute;
-    display: flex;
-    background-color: #7ea38c;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 99%;
-    height: 115px;
-    text-align: center;
-    color: #fff;
-    top: 0;
-    border-radius: 0px, 90px, 90px, 0px;
-  }
-  #retornar {
-    position: fixed;
-    background-color: #111B4D;
-    font-size: 60px;
-    height: 115px;
-    width: 100px;
-    margin-left: 10px;
-    align-self: self-start;
-    color: white;
-    background: none;
-    border: none;
-    cursor: pointer; 
-  }
-  #retornar i:hover{
-    transform: scale(1.05);
-    transition: box-shadow 1.2s ease;
-    box-shadow: 0 0 8px rgba(255, 255, 255, 0.396);
-    color: #f8f2f2;
-  }
-  #retornar i:visited{
-    color: #f8f2f2;
-  }
-  
-  #titulo { 
-    margin: 0px;
-    font-family: "Questrial", sans-serif;
-    font-style: normal;
-    font-size: 60px;
-  }
-  #subtitulo {
-    font-family: "Questrial", sans-serif;
-    margin: 0px;
-    font-size: 30px;
-  }
-  #logoP {
-    width: 330px;
-    height: 200px;
-    position: fixed;
-    right: -50px;
+#retornar {
+  position: fixed;
+  top: 10px;
+  left: 5px;
+  background-color: black;
+  font-size: 60px;
+  height: 115px;
+  width: 100px;
+  margin-left: 10px;
+  align-self: self-start;
+  color: black;
+  background: none;
+  border: none;
+  cursor: pointer; 
+margin-left: 20px;
+  margin-right: 270px;
+  margin-top: 32px;
+}
+#retornar i:hover{
+  transform: scale(1.05);
+  transition: box-shadow 1.2s ease;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.396);
+  color: black;
+}
+#retornar a:visited{
+  position: fixed;
+  top: 10px;
+  left: 5px;
+  background-color: black;
+  font-size: 60px;
+  height: 115px;
+  width: 100px;
+  margin-left: 10px;
+  align-self: self-start;
+  color: black;
+  background: none;
+  border: none;
+  cursor: pointer; 
+}
+#retornar i:hover{
+  transform: scale(1.05);
+  transition: box-shadow 1.2s ease;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.396);
+  color: black;
+}
+#retornar a:visited{
+  color: black;
+}
 
-  }
-  .icon {
-    color: #111D4A;
-    font-size: xx-large;
-  }
-  
+#retornar a:link{
+  color: black;
+}
