@@ -38,6 +38,7 @@
     color: #D9D9D9;
     font-family: 'Lexend Exa', sans-serif;
     font-size: x-large;
+    margin-right: 20px;
   } 
  
 .Piola{
@@ -176,16 +177,18 @@
     width: 350px;
     height: 180px;
     margin: 20px;
-  
+    list-style: none;
 }
    
 .curso h2{
     font-size: 20px;
     font-family: 'Lexend Exa', sans-serif;
-    list-style: none;
-    color: black;
-}
+ }
+   .cursos a{
    
+        text-decoration: none;
+   }
+
 .curso p {
     font-size: 14px;
     font-family: 'Questrial', sans-serif;
