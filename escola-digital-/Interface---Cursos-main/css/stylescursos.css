@@ -44,10 +44,10 @@
     font-size: xx-large;
     color: #021b30;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    background-color: #988b8e;
+    background-color: white;
     font-family: "Questrial", sans-serif;
     margin-left: 0x;
-    margin-right: 385px;
+    margin-right: 360px;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 1px;
@@ -140,22 +140,22 @@
   
     
     .b{
-      background-color: #4B5842;
-      color: #021b30;
-    }
+        background-color: white;
+        color: #021b30;
+      }
+      
+      .b:hover {
+          transform: scale(1.1);
+      }
     
-    .b:hover {
-        transform: scale(1.1);
-    }
-  
-    .out{
-        background-color: #021b30;
-        color: #4B5842;
-        margin-top: 120px; 
-       }
-    .out:hover {
-        transform: scale(1.1);
-    }
+      .out{
+          background-color: white;
+          color: #021b30;
+          margin-top: 120px; 
+         }
+      .out:hover {
+          transform: scale(1.1);
+      }
 
 
 #principal{
