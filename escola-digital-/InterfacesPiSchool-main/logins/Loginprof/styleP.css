@@ -10,7 +10,7 @@ body {
   .site-header {
     position: absolute;
     display: flex;
-    background-color: #988B8E;
+    background-color: #111d4a;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@ body {
   }
   #retornar {
     position: fixed;
-    background-color: #111B4D;
+    background-color: #000000;
     font-size: 60px;
     height: 115px;
     width: 100px;
@@ -58,7 +58,7 @@ body {
 
   }
   .icon {
-    color: #111D4A;
+    color: #A0816C;
     font-size: xx-large;
   }
   
@@ -67,7 +67,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #988B8E;
+    background-color: #111D4A;
     border-radius: 60px;
     box-sizing: border-box;
     padding: 20px;
@@ -110,7 +110,7 @@ body {
     margin-bottom: 30px;
     border-radius: 30px;
     border: none;
-    background-color: #f0f8ea;
+    background-color: #d9d9d9;
     font-size: 1.2em;
     color: #000000;
     box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.1);
@@ -134,10 +134,10 @@ body {
     color: #000000;
   }
   input[type="submit"] {
-    background-color: #111B4D;
+    background-color: #A0816C;
     border: none;
     border-radius: 90px;
-    color: #f0f8ea;
+    color: #000000;
     cursor: pointer;
     font-size: 1.2em;
     padding: 10px;
@@ -154,10 +154,10 @@ body {
   }
   
   .login-button {
-    background-color: #111D4A;
+    background-color: #A0816C;
     border: none;
     border-radius: 90px;
-    color: #f0f8ea;
+    color: #000000;
     cursor: pointer;
     font-size: 1.2em;
     padding: 10px;
