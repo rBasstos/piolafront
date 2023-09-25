@@ -54,7 +54,7 @@
   right: 80px
 }
 .icon {
-  color: #4B5842;
+  color: #BFAA8C;
   font-size: xx-large;
 }
 
@@ -110,7 +110,7 @@ input[type="password"] {
   margin-bottom: 30px;
   border-radius: 30px;
   border: none;
-  background-color: #988B8E;
+  background-color: #D9D9D9;
   font-size: 1.2em;
   color: #000000;
   box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.1);
@@ -134,7 +134,7 @@ input[type="password"]:focus {
   color: #000000;
 }
 input[type="submit"] {
-  background-color: #254b22;
+  background-color: #F0F8EA;
   border: none;
   border-radius: 90px;
   color: #000000;
@@ -154,7 +154,7 @@ input[type="submit"]:hover {
 }
 
 .login-button {
-  background-color: #4B5842;
+  background-color: #BFAA8C;
   border: none;
   border-radius: 90px;
   color: #000000;
