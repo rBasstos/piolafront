@@ -35,7 +35,7 @@
 }
 
 .ajuda {
-    color: white;
+    color: #D9D9D9;
     font-family: 'Lexend Exa', sans-serif;
     font-size: x-large;
   } 
@@ -44,7 +44,7 @@
     font-size: xx-large;
     color: #021b30;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    background-color: white;
+    background-color: #D9D9D9;
     font-family: "Questrial", sans-serif;
     margin-left: 0x;
     margin-right: 360px;
@@ -140,7 +140,7 @@
   
     
     .b{
-        background-color: white;
+        background-color: #D9D9D9;
         color: #021b30;
       }
       
@@ -149,7 +149,7 @@
       }
     
       .out{
-          background-color: white;
+          background-color: #D9D9D9;
           color: #021b30;
           margin-top: 120px; 
          }
