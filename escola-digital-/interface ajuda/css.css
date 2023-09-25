@@ -42,7 +42,7 @@
     font-size: xx-large;
     color: #021b30;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    background-color: #988b8e;
+    background-color: white;
     font-family: "Questrial", sans-serif;
     margin-left: 0x;
   
@@ -103,7 +103,7 @@
 #aside {
   background-color: #111D4A;
   width: 450px;
-  height:600px;
+  height: 585px;
 display: flex;
 justify-content: flex-start;
 float: left;
@@ -142,7 +142,7 @@ margin-top: 20px;
 
   
   .b{
-    background-color: #4B5842;
+    background-color: white;
     color: #021b30;
   }
   
@@ -151,8 +151,8 @@ margin-top: 20px;
   }
 
   .out{
-      background-color: #021b30;
-      color: #4B5842;
+      background-color: white;
+      color: #021b30;
       margin-top: 120px; 
      }
   .out:hover {
