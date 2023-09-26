@@ -33,4 +33,22 @@ const init = () => {
   }
 };
 
+function cliqueDuvidas() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const matricula = parseInt(urlParams.get("m"));
+  window.location.href = "../tela de dúvidas/html.html?m=" + matricula;
+}
+
+function cliqueAjuda() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const matricula = parseInt(urlParams.get("m"));
+  window.location.href = "../tela de ajuda professor/html.html?m=" + matricula;
+}
+
+function cliqueSair() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const matricula = parseInt(urlParams.get("m"));
+  window.location.href = "../sair/html.html?m=" + matricula;
+}
+
 window.onload = init;

@@ -44,5 +44,11 @@ function cliqueProfessor() {
   window.location.href = "../excluir tirar professor/html.html?m=" + matricula;
 }
 
+function cliqueSair() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const matricula = parseInt(urlParams.get("m"));
+  window.location.href = "../sair/html.html?m=" + matricula;
+}
+
 
 window.onload = init;

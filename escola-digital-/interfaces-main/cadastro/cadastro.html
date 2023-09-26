@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cutive&family=Lexend+Deca:wght@300&family=Questrial&display=swap" rel="stylesheet">
+    <script src="./script.js"></script>
 </head>
 
 <body>
@@ -16,7 +17,8 @@
         <h1 id="titulo">Piola Tech School</h1>
         <h2 id="subtitulo">Cadastro</h2>
         <button id="retornar">
-            <i class="fa-solid fa-arrow-left-long fa-lg"></i>
+            <a href="../../interface inicial/interface inicial.html">
+            <i class="fa-solid fa-arrow-left-long fa-lg"></i> </a>
         </button>
         <img src="./logo/cccccccccccccccc (4).png" alt="Logo Piola Tech School Aluno" id="logoA"> 
     </header>
@@ -40,11 +42,14 @@
                         <input type="password" id="password" name="password" placeholder="Senha">
                     </div>
                     <div class="form-group">
-                        <input type="tel" id="Telefone" name="Telefone" placeholder="Telefone">
+                        <input type="tel" id="telefone" name="telefone" placeholder="Telefone">
                     </div>
                    
                     <div class="form-group">
                         <button id="confirmar" type="submit" class="register-button">Confirmar</button>
+                    </div>
+                    <div id="error" class="form-group" style="display:none;">
+                        <p id="errormsg" class="errormsg"></p>
                     </div>
                 </form>
               </div>
